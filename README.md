@@ -5,8 +5,17 @@ Raspberry Pi Pico (or Arduino Nano) → Soil Moisture Probe → Water Pump → F
 
 ---
 
-![GardenSlave PCB](https://github.com/user-attachments/assets/807e94d5-aabe-4f0c-85b5-37407a0cc3f2)
-*As-built board (Pico footprint).*
+![GardenSlave PCB](https://github.com/user-attachments/assets/807e94d5-aabe-4f0c-85b5-37407a0cc3f2)  
+*Top view of the assembled GardenSlave PCB showing the Pico footprint, relay, buck converter, and connectors.*
+
+![GardenSlave Enclosure](https://github.com/user-attachments/assets/d1894482-3f5e-43a2-b8ec-4f3f3e52a7fc)  
+*GardenSlave installed in a custom 3D-printed enclosure, with openings for the soil sensor cable and pump power lead.*
+
+![Assembled Unit in Operation](https://github.com/user-attachments/assets/39d3a17f-0748-4503-b9fb-3a0773ff0711)  
+*GardenSlave powered up and connected to the reservoir float switch and soil probe.*
+
+![KiCad 3D View](https://github.com/user-attachments/assets/962257ac-9c27-4b5b-bc6f-b8512ae104a8)  
+*KiCad 3D render of the PCB layout, illustrating component placement.*
 
 ---
 
