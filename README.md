@@ -5,7 +5,7 @@ Raspberry Pi Pico (or Arduino Nano) → Soil Moisture Probe → Water Pump → F
 
 ---
 
-![GardenSlave PCB](docs/images/pcb_top.jpg)  
+![GardenSlave PCB](https://github.com/user-attachments/assets/807e94d5-aabe-4f0c-85b5-37407a0cc3f2)
 *As-built board (Pico footprint).*
 
 ---
