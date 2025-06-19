@@ -86,4 +86,4 @@ GardenSlave automates irrigation:
 ```cpp
 const int AirValue      = 632;  // ADC in air (dry)
 const int WaterValue    = 450;  // ADC in water (wet)
-const int DryValue 		= 600;  // soilMoistureValue ≥ this → pump on
+const int DryValue 		  = 600;  // soilMoistureValue ≥ this → pump on
