@@ -20,6 +20,7 @@
 // Soil moisture calibration (raw ADC values)
 const int AirValue   = 632; // reading in air (dry)
 const int WaterValue = 450; // reading in water (wet)
+const int DryValue = 600;   // dry threshold
 int soilMoistureValue   = 0; // raw ADC reading
 int soilMoistureValue2  = 0; // (unused) second sensor reading
 int soilMoisturePercent = 0; // mapped percentage (0–100)
@@ -70,7 +71,7 @@ void loop() {
     // If float switch indicates water, check soil moisture
     soilMoistureValue = analogRead(A2); // raw reading from moisture sensor
 
-    if (soilMoistureValue >= 600) {
+    if (soilMoistureValue >= DryValue) {
       // If very dry, run pump for 1 second, then wait 5 seconds
       digitalWrite(pump, HIGH);
       delay(1000);
